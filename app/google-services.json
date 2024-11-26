@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "427186865364",
+    "project_id": "lab7iot-8fcdf",
+    "storage_bucket": "lab7iot-8fcdf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427186865364:android:31a1081dc066f22c66e741",
+        "android_client_info": {
+          "package_name": "com.example.tickets"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsKXs29Cm4rRPFCI4XbMo0v_bWdnyNWd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

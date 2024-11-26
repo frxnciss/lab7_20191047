@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Grupo 1: Home y Pedidos -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hab"
+            android:icon="@drawable/ic_person"
+            android:title="Usuarios habilitados" />
+
+        <item
+            android:id="@+id/nav_ban"
+            android:icon="@drawable/ic_ban"
+            android:title="Usuarios baneados" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Cerrar sesión" />
+
+    </group>
+
+</menu>

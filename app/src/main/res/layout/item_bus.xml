@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nombre del plato (Texto en la parte superior) -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Nombre del plato (Texto a la izquierda) -->
+        <TextView
+            android:id="@+id/tvNameBus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IM11"
+            android:textColor="#000000"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <!-- Espaciador para empujar el icono a la derecha -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <!-- Icono de remove (A la derecha) -->
+        <ImageView
+            android:id="@+id/remove"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_info"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgUser"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_bus" />
+</LinearLayout>
