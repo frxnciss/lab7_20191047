@@ -32,7 +32,7 @@
 
         <!-- Icono de remove (A la derecha) -->
         <ImageView
-            android:id="@+id/remove"
+            android:id="@+id/inf"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:src="@drawable/ic_info"
