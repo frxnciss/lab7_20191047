@@ -86,6 +86,7 @@ public class RegisterActivity extends AppCompatActivity {
                             usuario.setCorreo(correo);
                             usuario.setPwd(password);
                             usuario.setSaldo("50.00");
+                            usuario.setRol("cliente");
 
                             // Guardar datos en Firestore
                             db.collection("usuarios")
